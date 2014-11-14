@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id314144" PGFVersion="0.19" GSCVersion="0.10.5">
+<actor id="id130891" PGFVersion="0.19" GSCVersion="0.10.5">
   <attributes>
-    <text id="name">Background</text>
+    <text id="name">Actor 2</text>
     <real id="time">0</real>
     <point id="position">
       <real id="x">0</real>
@@ -13,9 +13,9 @@
     </size>
     <angle id="rotation">0</angle>
     <color id="color">
-      <real id="red">0.0431372549019608</real>
-      <real id="green">0.580392156862745</real>
-      <real id="blue">0.890196078431373</real>
+      <real id="red">1</real>
+      <real id="green">1</real>
+      <real id="blue">1</real>
       <real id="alpha">1</real>
     </color>
     <image id="image" />

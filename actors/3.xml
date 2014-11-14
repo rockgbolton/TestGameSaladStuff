@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id444347" PGFVersion="0.19" GSCVersion="0.10.4">
+<actor id="id444347" PGFVersion="0.19" GSCVersion="0.10.5">
   <attributes>
     <text id="name">Guy</text>
     <real id="time">0</real>
@@ -23,7 +23,7 @@
     <boolean id="preloadArt">true</boolean>
   </attributes>
   <behaviors>
-    <behavior enabled="true" class="AccelerateBehavior" id="id976269">
+    <behavior id="id976269" class="AccelerateBehavior" enabled="true">
       <attributes>
         <text id="name">Accelerate</text>
         <text id="bundleName">Accelerate.behavior</text>

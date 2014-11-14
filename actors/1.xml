@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id833225" PGFVersion="0.19" GSCVersion="0.10.4">
+<actor id="id833225" PGFVersion="0.19" GSCVersion="0.10.5">
   <attributes>
     <text id="name">Ship1</text>
     <real id="time">0</real>
@@ -23,13 +23,13 @@
     <boolean id="preloadArt">true</boolean>
   </attributes>
   <behaviors>
-    <behavior enabled="true" class="CompoundBehavior" id="id503790">
+    <behavior id="id503790" class="CompoundBehavior" enabled="true">
       <attributes>
         <text id="name">Movement</text>
         <text id="bundleName">Group.behavior</text>
       </attributes>
       <behaviors>
-        <behavior enabled="true" class="RuleBehavior" id="id650618">
+        <behavior id="id650618" class="RuleBehavior" enabled="true">
           <attributes>
             <text id="name">Move Up</text>
             <text id="bundleName">Rule.behavior</text>
@@ -37,20 +37,20 @@
           </attributes>
           <conditions>
             <condition id="id876889" eventType="key" pluginPredicateTypeIndex="0" class="Key">
+              <attributes>
+                <text id="name">default name</text>
+                <index id="conditionType">0</index>
+              </attributes>
               <predicate type="key">
                 <attributes>
                   <text id="mode">down</text>
                   <text id="keyString">w</text>
                 </attributes>
               </predicate>
-              <attributes>
-                <text id="name">default name</text>
-                <index id="conditionType">0</index>
-              </attributes>
             </condition>
           </conditions>
           <behaviors>
-            <behavior enabled="true" class="MoveBehavior" id="id396877">
+            <behavior id="id396877" class="MoveBehavior" enabled="true">
               <attributes>
                 <text id="name">Move</text>
                 <text id="bundleName">Move.behavior</text>
@@ -62,7 +62,7 @@
             </behavior>
           </behaviors>
         </behavior>
-        <behavior enabled="true" class="RuleBehavior" id="id843557">
+        <behavior id="id843557" class="RuleBehavior" enabled="true">
           <attributes>
             <text id="name">Move Down</text>
             <text id="bundleName">Rule.behavior</text>
@@ -70,20 +70,20 @@
           </attributes>
           <conditions>
             <condition id="id241494" eventType="key" pluginPredicateTypeIndex="0" class="Key">
+              <attributes>
+                <text id="name">default name</text>
+                <index id="conditionType">0</index>
+              </attributes>
               <predicate type="key">
                 <attributes>
                   <text id="mode">down</text>
                   <text id="keyString">s</text>
                 </attributes>
               </predicate>
-              <attributes>
-                <text id="name">default name</text>
-                <index id="conditionType">0</index>
-              </attributes>
             </condition>
           </conditions>
           <behaviors>
-            <behavior enabled="true" class="MoveBehavior" id="id477117">
+            <behavior id="id477117" class="MoveBehavior" enabled="true">
               <attributes>
                 <text id="name">Move</text>
                 <text id="bundleName">Move.behavior</text>
@@ -95,7 +95,7 @@
             </behavior>
           </behaviors>
         </behavior>
-        <behavior enabled="true" class="RuleBehavior" id="id120360">
+        <behavior id="id120360" class="RuleBehavior" enabled="true">
           <attributes>
             <text id="name">Move Right</text>
             <text id="bundleName">Rule.behavior</text>
@@ -103,20 +103,20 @@
           </attributes>
           <conditions>
             <condition id="id498023" eventType="key" pluginPredicateTypeIndex="0" class="Key">
+              <attributes>
+                <text id="name">default name</text>
+                <index id="conditionType">0</index>
+              </attributes>
               <predicate type="key">
                 <attributes>
                   <text id="mode">down</text>
                   <text id="keyString">d</text>
                 </attributes>
               </predicate>
-              <attributes>
-                <text id="name">default name</text>
-                <index id="conditionType">0</index>
-              </attributes>
             </condition>
           </conditions>
           <behaviors>
-            <behavior enabled="true" class="MoveBehavior" id="id203962">
+            <behavior id="id203962" class="MoveBehavior" enabled="true">
               <attributes>
                 <text id="name">Move</text>
                 <text id="bundleName">Move.behavior</text>
@@ -128,7 +128,7 @@
             </behavior>
           </behaviors>
         </behavior>
-        <behavior enabled="true" class="RuleBehavior" id="id735468">
+        <behavior id="id735468" class="RuleBehavior" enabled="true">
           <attributes>
             <text id="name">Move Left</text>
             <text id="bundleName">Rule.behavior</text>
@@ -136,20 +136,20 @@
           </attributes>
           <conditions>
             <condition id="id844871" eventType="key" pluginPredicateTypeIndex="0" class="Key">
+              <attributes>
+                <text id="name">default name</text>
+                <index id="conditionType">0</index>
+              </attributes>
               <predicate type="key">
                 <attributes>
                   <text id="mode">down</text>
                   <text id="keyString">a</text>
                 </attributes>
               </predicate>
-              <attributes>
-                <text id="name">default name</text>
-                <index id="conditionType">0</index>
-              </attributes>
             </condition>
           </conditions>
           <behaviors>
-            <behavior enabled="true" class="MoveBehavior" id="id550647">
+            <behavior id="id550647" class="MoveBehavior" enabled="true">
               <attributes>
                 <text id="name">Move</text>
                 <text id="bundleName">Move.behavior</text>
@@ -163,7 +163,7 @@
         </behavior>
       </behaviors>
     </behavior>
-    <behavior enabled="true" class="RuleBehavior" id="id240490">
+    <behavior id="id240490" class="RuleBehavior" enabled="true">
       <attributes>
         <text id="name">Rule</text>
         <text id="bundleName">Rule.behavior</text>
@@ -171,17 +171,17 @@
       </attributes>
       <conditions>
         <condition id="id713310" eventType="touch" pluginPredicateTypeIndex="0" class="Touch">
-          <predicate type="touch" conditionType="pressed">
-            <attributes />
-          </predicate>
           <attributes>
             <text id="name">default name</text>
             <index id="conditionType">0</index>
           </attributes>
+          <predicate type="touch" conditionType="pressed">
+            <attributes />
+          </predicate>
         </condition>
       </conditions>
       <behaviors>
-        <behavior enabled="true" class="RotateBehavior" id="id357563">
+        <behavior id="id357563" class="RotateBehavior" enabled="true">
           <attributes>
             <text id="name">Rotate</text>
             <text id="bundleName">Rotate.behavior</text>
@@ -191,13 +191,13 @@
         </behavior>
       </behaviors>
     </behavior>
-    <behavior enabled="true" class="ControlCameraBehavior" id="id388629">
+    <behavior id="id388629" class="ControlCameraBehavior" enabled="true">
       <attributes>
         <text id="name">Control Camera</text>
         <text id="bundleName">ControlCamera.behavior</text>
       </attributes>
     </behavior>
-    <behavior enabled="true" class="CollideBehavior" id="id364439">
+    <behavior id="id364439" class="CollideBehavior" enabled="true">
       <attributes>
         <text id="name">Collide</text>
         <text id="bundleName">Collide.behavior</text>

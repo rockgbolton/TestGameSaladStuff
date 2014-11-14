@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<scene PGFVersion="0.19" GSCVersion="0.10.4" id="id807462">
+<scene PGFVersion="0.19" GSCVersion="0.10.5" id="id807462">
   <layers>
     <layer id="id516638">
       <actors>
@@ -27,6 +27,8 @@
               <attributes>
                 <enumeration id="horizontalWrap">2</enumeration>
                 <enumeration id="verticalWrap">2</enumeration>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
               </attributes>
             </graphics>
             <motion />
@@ -59,6 +61,8 @@
               <attributes>
                 <enumeration id="verticalWrap">2</enumeration>
                 <enumeration id="horizontalWrap">2</enumeration>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
               </attributes>
             </graphics>
             <motion />
@@ -76,6 +80,31 @@
             <size id="size">
               <real id="width">40</real>
               <real id="height">40</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects>
+            <graphics>
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
+            </graphics>
+            <motion />
+            <physics>
+              <attributes />
+            </physics>
+          </aspects>
+        </actor>
+        <actor id="id195846" prototype="id982598">
+          <attributes>
+            <point id="position">
+              <real id="x">227</real>
+              <real id="y">453.5</real>
+            </point>
+            <size id="size">
+              <real id="width">292</real>
+              <real id="height">181</real>
             </size>
             <angle id="rotation">0</angle>
           </attributes>

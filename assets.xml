@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<assets PGFVersion="0.19" GSCVersion="0.10.4">
+<assets PGFVersion="0.19" GSCVersion="0.10.5">
   <sounds />
   <images>
     <image name="Birds">
@@ -7,6 +7,9 @@
     </image>
     <image name="WhatUp">
       <file name="WhatUp.png" size="2101" />
+    </image>
+    <image name="H3-UNSCForwardUntoDawnFrigate">
+      <file name="H3-UNSCForwardUntoDawnFrigate.png" size="772486" />
     </image>
   </images>
   <behaviors />

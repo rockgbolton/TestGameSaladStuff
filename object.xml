@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<game GSCVersion="0.10.4" PGFVersion="0.19" title="My Great Project">
+<game GSCVersion="0.10.5" PGFVersion="0.19" title="My Great Project">
   <tags />
   <resolutionIndependence>0</resolutionIndependence>
   <instructions>Add game instructions here.</instructions>
@@ -12,6 +12,8 @@
     <actor id="id665088" />
     <actor id="id314144" />
     <actor id="id345870" />
+    <actor id="id130891" />
+    <actor id="id982598" />
   </prototypes>
   <plugins />
   <scenes>
