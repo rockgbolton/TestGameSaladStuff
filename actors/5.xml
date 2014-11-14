@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id314144" PGFVersion="0.19" GSCVersion="0.10.5">
+<actor id="id314144" PGFVersion="0.19" GSCVersion="0.10.4">
   <attributes>
     <text id="name">Background</text>
     <real id="time">0</real>

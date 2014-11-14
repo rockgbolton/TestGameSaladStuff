@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id688373" PGFVersion="0.19" GSCVersion="0.10.5">
+<actor id="id688373" PGFVersion="0.19" GSCVersion="0.10.4">
   <attributes>
     <text id="name">BadGuy1</text>
     <real id="time">0</real>
@@ -23,7 +23,7 @@
     <boolean id="preloadArt">true</boolean>
   </attributes>
   <behaviors>
-    <behavior id="id480891" class="RuleBehavior" enabled="true">
+    <behavior enabled="true" class="RuleBehavior" id="id480891">
       <attributes>
         <text id="name">Rule</text>
         <text id="bundleName">Rule.behavior</text>
@@ -31,17 +31,17 @@
       </attributes>
       <conditions>
         <condition id="id359158" eventType="touch" pluginPredicateTypeIndex="0" class="Touch">
+          <predicate type="touch" conditionType="pressed">
+            <attributes />
+          </predicate>
           <attributes>
             <text id="name">default name</text>
             <index id="conditionType">0</index>
           </attributes>
-          <predicate type="touch" conditionType="pressed">
-            <attributes />
-          </predicate>
         </condition>
       </conditions>
       <behaviors>
-        <behavior id="id780768" class="GrowShrinkBehavior" enabled="true">
+        <behavior enabled="true" class="GrowShrinkBehavior" id="id780768">
           <attributes>
             <text id="name">Change Size</text>
             <text id="bundleName">ChangeSize.behavior</text>
